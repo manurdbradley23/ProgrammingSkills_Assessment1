@@ -13,6 +13,6 @@ def questions_answers(question,answer):
         if answers.lstrip().lower() == answer.lstrip().lower():
                 print("Wow you got that correct!")
         else:
-         print("The supreme leader has scheduled your execution in 10 minutes.")
+         exit("The supreme leader has scheduled your execution in 10 minutes.")
 for k,s in dict1.items():
         questions_answers(k,s)
