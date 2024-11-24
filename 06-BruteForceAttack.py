@@ -8,7 +8,7 @@ while ask.lstrip() != password:
     attempts = attempts - 1
 #Subtracts attempts if user inputs the wrong input.
     if attempts == 0:
-        print('The supreme leader, xin jin ping has assigned your execution in 2 hours')
+        print('Locked out')
         break
     print(str(attempts) + " Attempts left")
     ask = input("What is the password:")
